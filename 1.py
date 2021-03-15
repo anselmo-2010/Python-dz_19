@@ -12,7 +12,18 @@ while n != passcode:
             print('Yes, the password is ' + passcode + '. You may enter.')
             break
 
+# разбор дз 
 
+# c помощью a in list
+while True:
+    password = input("Введите пароль")
+    if password in ["", " ", "\t", "\n"]:
+        print("Пароль не должен быть пустым")
+        continue
+    if paswword in password_list:
+        print("correct password")
+        break
+        
 
 
 
